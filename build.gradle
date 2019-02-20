@@ -1,0 +1,13 @@
+/*
+ * opensha-dev dependencies
+ */
+
+apply from: '../opensha-commons/build-common.gradle'
+
+dependencies {
+
+    compileOnly project(path: ':opensha-dev', configuration: 'compileOnly')
+    compileAndResource project(path: ':opensha-dev')
+
+    testCompile 'junit:junit:4.12'
+}
