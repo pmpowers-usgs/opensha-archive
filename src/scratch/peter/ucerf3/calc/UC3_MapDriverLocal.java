@@ -8,7 +8,6 @@ import java.util.concurrent.TimeUnit;
 
 import org.opensha.commons.geo.LocationList;
 import org.opensha.nshmp2.calc.HazardResultWriter;
-import org.opensha.nshmp2.calc.HazardResultWriterLocal;
 import org.opensha.nshmp2.calc.ThreadedHazardCalc;
 import org.opensha.nshmp2.tmp.TestGrid;
 import org.opensha.nshmp2.util.Period;
@@ -17,6 +16,8 @@ import org.opensha.sha.earthquake.param.IncludeBackgroundOption;
 
 import com.google.common.base.Stopwatch;
 import com.google.common.io.Files;
+
+import scratch.kevin.ucerf3.maps.HazardResultWriterLocal;
 
 /**
  * Add comments here

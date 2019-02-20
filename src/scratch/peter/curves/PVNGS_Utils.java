@@ -19,7 +19,6 @@ import org.opensha.nshmp2.calc.ERF_ID;
 import org.opensha.nshmp2.calc.HazardCalc;
 import org.opensha.nshmp2.calc.HazardResult;
 import org.opensha.nshmp2.calc.HazardResultWriter;
-import org.opensha.nshmp2.calc.HazardResultWriterLocal;
 import org.opensha.nshmp2.calc.HazardResultWriterSites;
 import org.opensha.nshmp2.calc.ThreadedHazardCalc;
 import org.opensha.nshmp2.util.Period;
@@ -34,6 +33,7 @@ import scratch.UCERF3.logicTree.LogicTreeBranch;
 import scratch.UCERF3.utils.ProbOfExceed;
 import scratch.UCERF3.utils.UpdatedUCERF2.GridSources;
 import scratch.UCERF3.utils.UpdatedUCERF2.MeanUCERF2update;
+import scratch.kevin.ucerf3.maps.HazardResultWriterLocal;
 import scratch.peter.ucerf3.calc.UC3_CalcUtils;
 
 import com.google.common.base.Charsets;

@@ -13,7 +13,6 @@ import org.opensha.commons.geo.Location;
 import org.opensha.commons.geo.LocationList;
 import org.opensha.nshmp2.calc.HazardResult;
 import org.opensha.nshmp2.calc.HazardResultWriter;
-import org.opensha.nshmp2.calc.HazardResultWriterMPJ;
 import org.opensha.nshmp2.tmp.TestGrid;
 import org.opensha.nshmp2.util.Period;
 import org.opensha.nshmp2.util.SourceIMR;
@@ -32,6 +31,7 @@ import org.opensha.sha.earthquake.rupForecastImpl.WGCEP_UCERF_2_Final.MeanUCERF2
 
 import scratch.UCERF3.FaultSystemSolution;
 import scratch.UCERF3.erf.FaultSystemSolutionERF;
+import scratch.kevin.ucerf3.maps.HazardResultWriterMPJ;
 import scratch.peter.nshmp.NSHMP_UCERF2_ERF;
 import scratch.peter.nshmp.NSHMP_UCERF3_ERF;
 import scratch.peter.ucerf3.calc.UC3_CalcUtils;

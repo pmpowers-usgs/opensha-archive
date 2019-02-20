@@ -16,13 +16,13 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.opensha.commons.geo.LocationList;
 import org.opensha.nshmp2.calc.HazardResultWriter;
-import org.opensha.nshmp2.calc.HazardResultWriterLocal;
-import org.opensha.nshmp2.calc.HazardResultWriterMPJ;
 import org.opensha.nshmp2.tmp.TestGrid;
 import org.opensha.nshmp2.util.Period;
 import org.opensha.nshmp2.util.SourceIMR;
 import org.opensha.sha.earthquake.param.IncludeBackgroundOption;
 
+import scratch.kevin.ucerf3.maps.HazardResultWriterLocal;
+import scratch.kevin.ucerf3.maps.HazardResultWriterMPJ;
 import scratch.peter.ucerf3.calc.UC3_CalcMPJ_Map;
 
 import com.google.common.base.Charsets;
